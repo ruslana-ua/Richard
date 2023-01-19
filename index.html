@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230110181328">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230119125655">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,16 +26,19 @@
 								<nav class="menu__body">
 									<ul class="menu__list">
 										<li class="menu__item">
-											<a href="#" class="menu__link">About</a>
+											<a href="#home" class="menu__link">Home</a>
 										</li>
 										<li class="menu__item">
-											<a href="#" class="menu__link">Features</a>
+											<a href="#about" class="menu__link">About</a>
 										</li>
 										<li class="menu__item">
-											<a href="#" class="menu__link">How to Use</a>
+											<a href="#features" class="menu__link">Features</a>
 										</li>
 										<li class="menu__item">
-											<a href="#" class="menu__link">Download</a>
+											<a href="#how-to-use" class="menu__link">How to Use</a>
+										</li>
+										<li class="menu__item">
+											<a href="#download" class="menu__link">Download</a>
 										</li>
 									</ul>
 								</nav>
@@ -47,7 +50,7 @@
 			</div>
 		</header>
 		<main class="page">
-			<section class="page__main-page main-page">
+			<section id="home" class="page__main-page main-page">
 				<div class="main-page__container-small">
 					<div class="main-page__body">
 						<div class="main-page__content">
@@ -60,23 +63,25 @@
 						<div class="main-page__image" style="background-image: url('img/main-image.png');">
 						</div>
 					</div>
-					<div class="main-page__down">
+					<a href="#about" class="main-page__down">
 						<img src="img/down.svg" alt="Down">
-					</div>
+					</a>
 				</div>
 			</section>
-			<section class="page__reports reports">
+			<section id="about" class="page__reports reports">
 				<div class="reports__container">
 					<div class="reports__content">
 						<p class="reports__text">Aenean Consectetur Porta</p>
 						<h2 class="reports__title">Nullam quis risus eget urna mollis ornare vel eu leo.</h2>
 					</div>
 					<div class="reports__image">
-						<picture><source srcset="img/pic__01.webp" type="image/webp"><img src="img/pic__01.png" alt="Image"></picture>
+						<picture>
+							<source srcset="img/pic__01.webp" type="image/webp"><img src="img/pic__01.png" alt="Image">
+						</picture>
 					</div>
 				</div>
 			</section>
-			<section class="page__recipe recipe">
+			<section id="features" class="page__recipe recipe">
 				<div class="recipe__container">
 					<div class="recipe__wrapper">
 						<div class="recipe__row">
@@ -93,7 +98,9 @@
 								</p>
 							</div>
 							<div class="recipe__image">
-								<picture><source srcset="img/pic__02.webp" type="image/webp"><img src="img/pic__02.png" alt="Image"></picture>
+								<picture>
+									<source srcset="img/pic__02.webp" type="image/webp"><img src="img/pic__02.png" alt="Image">
+								</picture>
 							</div>
 						</div>
 						<div class="recipe__row recipe__row-right">
@@ -110,7 +117,9 @@
 								</p>
 							</div>
 							<div class="recipe__image">
-								<picture><source srcset="img/pic__03.webp" type="image/webp"><img src="img/pic__03.png" alt="Image"></picture>
+								<picture>
+									<source srcset="img/pic__03.webp" type="image/webp"><img src="img/pic__03.png" alt="Image">
+								</picture>
 							</div>
 						</div>
 						<div class="recipe__row">
@@ -127,13 +136,15 @@
 								</p>
 							</div>
 							<div class="recipe__image">
-								<picture><source srcset="img/pic__04.webp" type="image/webp"><img src="img/pic__04.png" alt="Image"></picture>
+								<picture>
+									<source srcset="img/pic__04.webp" type="image/webp"><img src="img/pic__04.png" alt="Image">
+								</picture>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="page__benefits benefits">
+			<section id="how-to-use" class="page__benefits benefits">
 				<div class="benefits__container">
 					<div class="benefits__body">
 						<div class="benefits__item">
@@ -216,7 +227,9 @@
 								</p>
 							</div>
 							<div class="recipe__image">
-								<picture><source srcset="img/pic__05.webp" type="image/webp"><img src="img/pic__05.jpg" alt="Image"></picture>
+								<picture>
+									<source srcset="img/pic__05.webp" type="image/webp"><img src="img/pic__05.jpg" alt="Image">
+								</picture>
 							</div>
 						</div>
 						<div class="recipe__row recipe__row-right">
@@ -235,7 +248,9 @@
 								</p>
 							</div>
 							<div class="recipe__image">
-								<picture><source srcset="img/pic__06.webp" type="image/webp"><img src="img/pic__06.jpg" alt="Image"></picture>
+								<picture>
+									<source srcset="img/pic__06.webp" type="image/webp"><img src="img/pic__06.jpg" alt="Image">
+								</picture>
 							</div>
 						</div>
 					</div>
@@ -289,14 +304,18 @@
 						</div>
 					</div>
 					<div class="reviews__brands">
-						<picture><source srcset="img/brands.webp" type="image/webp"><img src="img/brands.png" alt="Brands"></picture>
+						<picture>
+							<source srcset="img/brands.webp" type="image/webp"><img src="img/brands.png" alt="Brands">
+						</picture>
 					</div>
 				</div>
 				<div class="reviews__app">
-					<picture><source srcset="img/app.webp" type="image/webp"><img src="img/app.jpg" alt="App"></picture>
+					<picture>
+						<source srcset="img/app.webp" type="image/webp"><img src="img/app.jpg" alt="App">
+					</picture>
 				</div>
 			</section>
-			<section class="page__download download">
+			<section id="download" class="page__download download">
 				<div class="download__container">
 					<div class="download__body">
 						<h2 class="download__title">
@@ -319,7 +338,8 @@
 							New course alerts, discounts and free lessons
 						</p>
 						<form action="#" class="subscribe__form">
-							<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="Enter your email" class="subscribe__input">
+							<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="Enter your email"
+								class="subscribe__input">
 							<button type="button" class="subscribe__button btn">Subscribe</button>
 						</form>
 					</div>
@@ -329,7 +349,9 @@
 		<footer class="footer">
 			<div class="footer__container">
 				<div class="footer__logo">
-					<picture><source srcset="img/logo-footer.webp" type="image/webp"><img src="img/logo-footer.png" alt="Logo Footer"></picture>
+					<picture>
+						<source srcset="img/logo-footer.webp" type="image/webp"><img src="img/logo-footer.png" alt="Logo Footer">
+					</picture>
 				</div>
 				<ul class="footer__social">
 					<li class="footer__item">
@@ -355,19 +377,7 @@
 		</footer>
 		<div class="arrow-up"></div>
 	</div>
-	<!-- 
-<div id="popup" aria-hidden="true" class="popup">
-	<div class="popup__wrapper">
-		<div class="popup__content">
-			<button data-close type="button" class="popup__close">Закрыть</button>
-			<div class="popup__text">
-			</div>
-		</div>
-	</div>
-</div>
- -->
-
-	<script src="js/app.min.js?_v=20230110181328"></script>
+	<script src="js/app.min.js?_v=20230119125655"></script>
 </body>
 
 </html>
